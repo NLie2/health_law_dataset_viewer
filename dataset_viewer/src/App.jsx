@@ -1,6 +1,6 @@
 
 import './App.css'
-import question_dataset from '../../assets/question_dataset.json';
+import question_dataset from './assets/question_dataset.json';
 
 import { useState } from 'react';
 
