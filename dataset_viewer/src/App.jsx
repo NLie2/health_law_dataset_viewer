@@ -1,5 +1,6 @@
 
 import './App.css'
+import Form from './Form'
 import question_dataset from './assets/question_dataset.json';
 
 import { useState } from 'react';
@@ -32,7 +33,11 @@ function App() {
           <button className="control-button" id="previous" onClick={handleClick}>previous</button>
           <button className="control-button" id="next" onClick={handleClick}>Next</button>
         </div>
+        <div>
+          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoZJRx7RPRITAUA6CHcmoAFW8vbG3beP7oLrgoi_JhWheCGg/viewform?embedded=true" width="640" height="414" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe> */}
+        <div data-tf-live="01HTQPMYMWGR1VFBQ1VQB55SK1"></div><script src="//embed.typeform.com/next/embed.js"></script>        </div>
         <h1>Dataset Viewer {questionIndex}</h1>
+        <Form />
         <div className="source">
             <p>{question_dataset[questionIndex]["source_text"]}</p>
           </div>
@@ -48,6 +53,7 @@ function App() {
             <p>{question_dataset[questionIndex]["gold_reasoning_gpt-4"]}</p>
           </div>
         </div>
+
       </main>
     </>
   )

@@ -48,6 +48,8 @@ main {
   display: flex;
   justify-content: right;
 }
-h1 {
- 
+
+.my-form{
+  width: 90%;
+  height: 30rem;  
 }
