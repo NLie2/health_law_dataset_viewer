@@ -1,0 +1,16 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black; 
+  border-radius: 0.7em;
+  padding: 0.5rem;
+  background: lightgrey;
+}
+
+li{
+  list-style: none;
+  
+}
+a{
+  color: black; 
+}

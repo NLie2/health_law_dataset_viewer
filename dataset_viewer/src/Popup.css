@@ -1,0 +1,28 @@
+/* Popup.css */
+.popup {
+  position: fixed;
+  background-color: grey;
+  right: 1;
+  bottom: 0;
+  width: auto; /* or you can specify a width, e.g., 300px */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.popup-content {
+  width: auto; /* Adjust width as needed */
+  margin: 5rem;
+  padding: 20px;
+  background: white;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 0 0 0; /* Rounded corner at the top left */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
