@@ -75,7 +75,7 @@ function Questionnaire() {
             <button className="control-button" id="previous" onClick={handleClick}>previous</button>
             <button className="control-button" id="next" onClick={handleClick}>Next</button>
         </div>
-        <h1> QUESTION Alt {questionIndex}</h1>
+        <h1> Question {questionIndex}</h1>
         <>
           {/* Other content of your page */}
           <button onClick={togglePopup}>Rate this question</button>
