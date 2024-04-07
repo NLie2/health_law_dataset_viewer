@@ -84,7 +84,7 @@ function Questionnaire() {
         </>
         {/* <Form /> */}
         <div className="source">
-            <p>{question_dataset[questionIndex]["source_text"]}</p>
+            <p><b>source text: </b> {question_dataset[questionIndex]["source_text"]}</p>
           </div>
         <div className="card">
             <div className="questionAnswer">
