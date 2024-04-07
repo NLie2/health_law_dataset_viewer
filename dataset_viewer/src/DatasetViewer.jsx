@@ -36,7 +36,7 @@ function DatasetViewer() {
         <div>
           {/* <iframe ref={iframeRef} src="https://docs.google.com/forms/d/e/1FAIpQLSdoZJRx7RPRITAUA6CHcmoAFW8vbG3beP7oLrgoi_JhWheCGg/viewform?embedded=true" width="640" height="414" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe> */}
         </div>
-        <h1>Dataset Viewer {questionIndex}</h1>
+        <h1> Question {questionIndex}</h1>
         <div className="source">
             <p>{question_dataset[questionIndex]["source_text"]}</p>
           </div>
