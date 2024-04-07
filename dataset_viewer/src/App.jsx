@@ -13,7 +13,7 @@ function App() {
 
       <Routes>
         <Route path="/health_law_dataset_viewer/" element={<DatasetViewer />} />
-        <Route path="/health_law_dataset_viewer/questionniare/" element={<Questionnaire />} />
+        <Route path="/health_law_dataset_viewer/questionnaire/" element={<Questionnaire />} />
 
       </Routes>
     </div>

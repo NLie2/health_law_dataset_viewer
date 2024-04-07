@@ -8,7 +8,7 @@ export default function NavBar(){
         <Link to='/health_law_dataset_viewer/'>View full dataset </Link>
       </li>
       <li>
-        <Link to='/health_law_dataset_viewer/questionniare/'>Answer questionnaire </Link>
+        <Link to='/health_law_dataset_viewer/questionnaire/'>Answer questionnaire </Link>
       </li>
     </div>
   )
