@@ -12,8 +12,9 @@ function App() {
       <NavBar />
 
       <Routes>
-        <Route path="/health_law_dataset_viewer/" element={<DatasetViewer />} />
-        <Route path="/health_law_dataset_viewer/questionnaire/" element={<Questionnaire />} />
+        <Route path='*' element={<DatasetViewer />} />
+        <Route path="/health_law_dataset_viewer" element={<DatasetViewer />} />
+        <Route path="/health_law_dataset_viewer/questionnaire" element={<Questionnaire />} />
 
       </Routes>
     </div>
