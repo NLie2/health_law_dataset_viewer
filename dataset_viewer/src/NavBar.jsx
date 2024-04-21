@@ -10,6 +10,9 @@ export default function NavBar(){
       <li>
         <Link to='/health_law_dataset_viewer/questionnaire'>Answer questionnaire </Link>
       </li>
+      <li>
+        <Link to='/form'>Form</Link>
+      </li>
     </div>
   )
 }

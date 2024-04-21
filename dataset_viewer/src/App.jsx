@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import DatasetViewer from './DatasetViewer';
 import Questionnaire from './Questionnaire'
 import NavBar from './NavBar';
+import MultiStepForm from './MultiStepForm';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
         <Route path='*' element={<DatasetViewer />} />
         <Route path="/health_law_dataset_viewer" element={<DatasetViewer />} />
         <Route path="/health_law_dataset_viewer/questionnaire" element={<Questionnaire />} />
-
+        <Route path="/form" element={<MultiStepForm />} />
       </Routes>
     </div>
   )
